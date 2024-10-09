@@ -1,0 +1,2 @@
+Prefix plugins/HistogramScore/example/
+Plugin HistogramScore inputfile subset.rds outputfile histScore.pdf
