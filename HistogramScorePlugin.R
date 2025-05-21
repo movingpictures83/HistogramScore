@@ -13,7 +13,9 @@ input <- function(inputfile) {
 run <- function() {}
 
 output <- function(outputfile) {
-pdf(outputfile)
+#print(str(BP.5))
+	write.csv(BP.5$GO$ave_score, paste(outputfile, "csv", sep="."))
+	pdf(outputfile)
 ###################################################
 ### code chunk number 37: GOexpress-UsersGuide.Rnw:950-951
 ###################################################
